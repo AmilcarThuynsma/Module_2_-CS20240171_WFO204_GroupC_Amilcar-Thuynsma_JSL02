@@ -32,7 +32,8 @@ const addNewGoal = () => {
     // If it's not a duplicate, proceed with adding it as a new goal.
     
     if (isDuplicate) {
-        alert ('This goal already')
+        alert ('This goal already'); 
+        return;
     }
     // ⚠️ Hint 3: Code structure
     // You might want to wrap the duplicate-checking logic in an 'if' statement.
